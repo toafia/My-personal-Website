@@ -1,0 +1,93 @@
+body {
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.red-color {
+    color: red;
+}
+
+.flex-section1 {
+    display: flex;
+
+}
+
+.back-pic {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.middle-pic {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.first-part {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 700;
+
+}
+
+.display-flex {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.color {
+    color: rgb(228, 126, 31);
+}
+
+
+.Devloper {
+    width: 50%;
+    padding-left: 5%;
+    box-shadow: 10px 30px 100px gray;
+    padding-right: 5%;
+    margin-left: 5%;
+
+
+}
+
+.course-her-section2 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+#design-dev {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(31, 152, 173), rgb(223, 160, 149));
+    border-image-slice: 1;
+
+
+}
+
+#model-dev {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(31, 26, 26), rgb(233, 48, 23));
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+}
